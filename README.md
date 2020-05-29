@@ -2,6 +2,8 @@
 This is real life example which demostrates how to use SQLite encrypted database using Entity Framework Core (EFCore). 
 Database is using SQLCipher encryption. Encryption is applied to the database using DBBrowser for SQLite. DBBrowser for SQLite is free and open source tool to edit the SQLite files. 
 
+Note: Database in this example is encrypted using SQLCipher and can be opened with [SQLite Studio](https://github.com/pawelsalawa/sqlitestudio/releases)
+
 Steps for using Encrypted SQLite database in your .Net application with EFCore. This example is using .Net Core 2.0 with EFCore 2.0
 
 
@@ -16,6 +18,8 @@ Steps for using Encrypted SQLite database in your .Net application with EFCore. 
    ExcludeAssets="All" is important otherwise it will not work. For details refer to following link
   
      http://www.bricelam.net/2016/06/13/sqlite-encryption.html
+	 
+	
 
 
 
